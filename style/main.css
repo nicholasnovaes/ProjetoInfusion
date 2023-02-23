@@ -40,6 +40,7 @@ img{
     text-decoration: none;
     font-weight: bold;
     color: #fff;
+    text-align: right;
 }
 
 .header__nav{
@@ -367,6 +368,12 @@ img{
     .people-cards{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+
+    .content .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         gap: 30px;
     }
 }
