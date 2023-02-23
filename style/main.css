@@ -11,6 +11,12 @@ img{
     max-width: 100%;
 }
 
+
+.header{
+    background: #fff;
+    width: 100%;
+}
+
 .container{
     margin-right: auto;
     margin-left: auto;
@@ -19,10 +25,8 @@ img{
     border-left: .5 solid #929da5;
 }
 
-.header{
-    background: #fff;
-    width: 100%;
-}
+
+
 
 .logo-text{
     text-transform: uppercase;
@@ -160,13 +164,11 @@ img{
 }
 
 
-
 .people-cards__content{
     padding: 40px 25px 10px;
     border-left: 0.5px solid #dbe1e7;
     text-align: center;
 }
-
 
 
 .people-cards__title{
@@ -180,4 +182,52 @@ img{
     color: #929da5;
     font-size: 14px;
     
+}
+
+
+.content{
+    background-color: #f8f9f9;
+    padding: 20px 0 80px;
+    border-top: 1px solid #e3e3e3;
+}
+
+.content h3{
+    font-family: 'Sintony';
+    color: #737c85;
+    font-size: 21px;
+    font-weight: 200;
+    padding-top: 40px;
+}
+
+.content p{
+    color: #929da5;
+    font-size: 14px;
+    word-spacing: 3px;
+}
+
+
+.button{
+    padding: 15px 40px;
+    margin-top: 5px;
+    border-radius: 3px;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+}
+
+.button:hover{
+    background-color: #929da5;
+    transition: .5s;
+}
+
+.btn1{
+    background-color: #62c6ae;
+}
+
+.btn2{
+    background-color: #455357;
 }
