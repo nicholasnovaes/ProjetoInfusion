@@ -376,4 +376,16 @@ img{
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
     }
+
+    .last-articles__thumbs{
+        grid-template-columns: repeat(6, 1fr)
+    }
+
+    .footer .container{
+        display: flex;
+    }
+
+    .footer .container > * {
+        margin: 20px;
+    }
 }
