@@ -27,11 +27,15 @@ img{
 }
 
 
+<<<<<<< HEAD
 .js .header{
     position: fixed;
     width: 100%;
     z-index: 10;
 }
+=======
+
+>>>>>>> parent of 2949a28 (JavaScript - Menu)
 
 .logo-text{
     text-transform: uppercase;
@@ -80,19 +84,7 @@ img{
 }
 
 .header__btnMenu{
-    float: right;
-    margin: 1em;
-    background-color: transparent;
-    border: none;
-    font-size: 18px;
-}
 
-.header__btnMenu .fas{
-    font-size: 30px;
-}
-
-.js .header__nav{
-    transition: max-height 1s;
 }
 
 .js .laptop-slider{
