@@ -138,6 +138,52 @@ img{
     right: 10px;
 }
 
+
+.js .quote-container .quote-slideshow{
+    width: 100%;
+    max-width: 950px;
+    position: relative;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0 50px;
+    color: white;
+}
+
+.js .quote-slideshow figure{
+    opacity: 0;
+    transition: 1s opacity;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    right: 50px;
+    margin: 0;
+}
+
+.js .quote-slideshow h2{
+    margin-top: 0;
+}
+
+.js .quote-slideshow figure.show{
+    opacity: 1;
+    position: static;
+}
+
+.js .quote-container .prev, .js .quote-container .next{
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+.js .quote-container .prev{
+    left:10px;
+}
+
+.js .quote-container .next{
+    right: 10px;
+}
+
+
 .hero{
     height: 80vh;
     padding: 40px 20px;
